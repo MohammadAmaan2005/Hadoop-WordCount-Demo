@@ -21,20 +21,21 @@ It covers:
 ## ⚙️ Project Structure
 Hadoop-Data-Processing-System/
 │
-├── README.md                → project ka overview aur setup guide
-├── LICENSE                  → MIT license for open-source use
-├── .gitignore               → unnecessary files ignore karne ke liye
-├── pom.xml                  → Maven build configuration
+├── README.md                → Contains project overview and setup guide
+├── LICENSE                  → MIT License for open-source usage
+├── .gitignore               → Specifies files to be ignored by Git
+├── pom.xml                  → Maven build configuration file
 │
 ├── src/
 │   └── main/
 │       └── java/
 │           └── com/
 │               └── project/
-│                   └── WordCount.java   → Hadoop MapReduce program (main logic)
+│                   └── WordCount.java    → Main Hadoop MapReduce program
 │
 ├── data/
-│   └── input.txt             → sample input data file (for testing)
+│   └── input.txt             → Sample input data for testing
 │
 └── scripts/
-    └── run.sh                → script to run Hadoop job easily
+    └── run.sh                → Shell script to run the Hadoop job
+
